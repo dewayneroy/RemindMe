@@ -6,14 +6,14 @@ Created on Wed Mar 21 21:56:16 2018
 @author: dewayneroy
 """
 
-import time #Step3
-import webbrowser #Step1
+import time
+import webbrowser 
 
-total_breaks = 3 #Step5
-break_count = 0 #Step6
+total_breaks = 3
+break_count = 0 
 
 print("This program started on " +time.ctime())
-while (break_count < total_breaks): #Step7
-    time.sleep(2700) #Step 4
-    webbrowser.open("https://www.youtube.com/watch?v=Eegftbcv9Ug") #Step2
+while (break_count < total_breaks):
+    time.sleep(2700) 
+    webbrowser.open("https://www.youtube.com/watch?v=Eegftbcv9Ug") 
     break_count = break_count + 1
